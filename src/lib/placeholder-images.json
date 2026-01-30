@@ -2,13 +2,13 @@
   "placeholderImages": [
     {
       "id": "project-1",
-      "description": "Imagen de un proyecto de desarrollo web",
-      "imageUrl": "/images/project-1.png"
+      "description": "Imagen de un proyecto de ventas",
+      "imageUrl": "/images/project-1.jpg"
     },
     {
       "id": "project-2",
-      "description": "Imagen de un proyecto de desarrollo web",
-      "imageUrl": "/images/project-2.png"
+      "description": "Imagen de un proyecto de marketing",
+      "imageUrl": "/images/project-2.jpg"
     },
     {
       "id": "project-3",

@@ -51,10 +51,10 @@ export default function Home() {
       <footer className="bg-secondary">
         <div className="container mx-auto flex h-20 max-w-screen-2xl flex-col items-center justify-between gap-4 px-4 text-center md:flex-row md:px-6">
           <p className="text-sm text-muted-foreground">
-            © 2025 Portafolio construido por Jesus Alvarez.
+            © 2026 Portafolio construido por Jesus Alvarez.
           </p>
           <div className="flex items-center gap-4">
-            <a href="https://github.com/alvarezjp" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
+            <a href="https://github.com/alvarezjp/PortafolioDataScience" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
               <Github className="h-5 w-5" />
             </a>
           </div>

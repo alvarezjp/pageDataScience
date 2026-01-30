@@ -8,9 +8,9 @@ export function TechStack() {
     <section id="tech-stack" className="bg-secondary py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Tecnologias y Herramientas</h2>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Tecnologías para Análisis de Datos</h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground md:text-xl">
-            Una seleccion de las tecnologias que utilizo para construir mis proyectos.
+            Herramientas que utilizo para el análisis, visualización y modelado de datos en proyectos de ciencia de datos.
           </p>
         </div>
         <TooltipProvider delayDuration={0}>

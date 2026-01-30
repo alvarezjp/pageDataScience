@@ -11,10 +11,11 @@ export function HeroSection() {
             Jesus Alvarez
           </h1>
           <h2 className="text-2xl font-medium text-primary md:text-3xl">
-            Front-End Developer
+            Data Analyst | Data Science
           </h2>
           <p className="mx-auto max-w-[700px] text-lg text-muted-foreground md:text-xl">
-            ¡Hola! Este es mi portafolio, donde comparto lo que he ido aprendiendo y creando como desarrollador frontend.
+            Analizo datos para encontrar patrones, generar insights y apoyar la toma de decisiones. 
+            Trabajo con Python, pandas, visualización de datos y modelos de machine learning, aplicados a proyectos reales.
           </p>
         </div>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -23,7 +24,7 @@ export function HeroSection() {
           </Button>
         </div>
         <div className="mt-10 flex items-center justify-center gap-6">
-          <a href="https://github.com/alvarezjp" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
+          <a href="https://github.com/alvarezjp/PortafolioDataScience" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
             <Github className="h-7 w-7" />
           </a>
           <a href="https://www.linkedin.com/in/jesusalvarezpasmino/" aria-label="LinkedIn" className="text-muted-foreground transition-colors hover:text-primary">

@@ -21,7 +21,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
             width={600}
             height={400}
             className="h-full w-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105"
-            data-ai-hint={project.imageHint}
           />
         </div>
       </CardHeader>
@@ -42,7 +41,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             <Button asChild>
               <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="mr-2 h-4 w-4" />
-                Live Demo
+                Notebook
               </Link>
             </Button>
           )}
