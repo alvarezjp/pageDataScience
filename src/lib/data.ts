@@ -83,13 +83,13 @@ export const projects: Project[] = [
     liveUrl: 'https://github.com/alvarezjp/PortafolioDataScience/blob/main/02-CampanaMarketing/Notebook/marketingCampaignData.ipynb',
     githubUrl: 'https://github.com/alvarezjp/PortafolioDataScience/tree/main/02-CampanaMarketing',
   },
-  // {
-  //   id: 'project-3',
-  //   title: 'Landing Page Marketing',
-  //   description: 'Landing page para promocionar un curso de marketing, enfocada en comunicar los beneficios y el temario del curso, con un diseño limpio, navegación intuitiva y formularios de inscripción visibles.',
-  //   image: project3Image?.imageUrl || '',
-  //   tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
-  //   liveUrl: 'https://portafolio-landing-marketing.vercel.app/',
-  //   githubUrl: 'https://github.com/alvarezjp/Portafolio-LandingMarketing',
-  // },
+  {
+    id: 'project-3',
+    title: 'Analisis y modelo de Riesgo Crediticio',
+    description: 'Proyecto enfocado en el análisis exploratorio y modelado predictivo del incumplimiento crediticio. ',
+    image: project3Image?.imageUrl || '',
+    tags: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Plotly', 'Scikit-learn', 'XGBoost'],
+    liveUrl: 'https://github.com/alvarezjp/PortafolioDataScience/blob/main/03-RiesgoCrediticio/Notebook/03-Credit.ipynb',
+    githubUrl: 'https://github.com/alvarezjp/PortafolioDataScience/tree/main/03-RiesgoCrediticio',
+  },
 ];
