@@ -58,6 +58,7 @@ export type Project = {
   tags: string[];
   liveUrl?: string;
   githubUrl?: string;
+  dashboard?:string;
 };
 
 const project1Image = PlaceHolderImages.find(p => p.id === 'project-1');
@@ -91,5 +92,6 @@ export const projects: Project[] = [
     tags: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Plotly', 'Scikit-learn', 'XGBoost'],
     liveUrl: 'https://github.com/alvarezjp/PortafolioDataScience/blob/main/03-RiesgoCrediticio/Notebook/03-Credit.ipynb',
     githubUrl: 'https://github.com/alvarezjp/PortafolioDataScience/tree/main/03-RiesgoCrediticio',
+    dashboard: 'https://dashboardriesgocrediticio.streamlit.app/',
   },
 ];
