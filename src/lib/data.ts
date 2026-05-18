@@ -66,24 +66,24 @@ const project2Image = PlaceHolderImages.find(p => p.id === 'project-2');
 const project3Image = PlaceHolderImages.find(p => p.id === 'project-3');
 
 export const projects: Project[] = [
-  {
-    id: 'project-1',
-    title: 'Análisis Ventas de un Hipermercado',
-    description: 'Este analisis se enfoco en el comportamiento, identificacion y patrones estacionales.El proyecto incluye limpieza de datos, análisis descriptivo, visualización y conclusiones basadas en datos reales.',
-    image: project1Image?.imageUrl || '',
-    tags: ['Python', 'Pandas', 'NumPy','Matplotlib', 'Seaborn','scikit-learn'],
-    liveUrl: 'https://github.com/alvarezjp/PortafolioDataScience/blob/main/01-HipermercadoTemporalidadVenta/Notebook/VentasTemporalidad.ipynb',
-    githubUrl: 'https://github.com/alvarezjp/PortafolioDataScience/tree/main/01-HipermercadoTemporalidadVenta',
-  },
   // {
-  //   id: 'project-2',
-  //   title: 'Análisis de Campañas de Marketing',
-  //   description: 'Este proyecto fue enfocado en el estudio del funnel de conversión, evaluando el comportamiento de los usuarios en cada etapa y detectando puntos de conversion.',
-  //   image: project2Image?.imageUrl || '',
-  //   tags: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'scikit-learn'],
-  //   liveUrl: 'https://github.com/alvarezjp/PortafolioDataScience/blob/main/02-CampanaMarketing/Notebook/marketingCampaignData.ipynb',
-  //   githubUrl: 'https://github.com/alvarezjp/PortafolioDataScience/tree/main/02-CampanaMarketing',
+  //   id: 'project-1',
+  //   title: 'Análisis Ventas de un Hipermercado',
+  //   description: 'Este analisis se enfoco en el comportamiento, identificacion y patrones estacionales.El proyecto incluye limpieza de datos, análisis descriptivo, visualización y conclusiones basadas en datos reales.',
+  //   image: project1Image?.imageUrl || '',
+  //   tags: ['Python', 'Pandas', 'NumPy','Matplotlib', 'Seaborn','scikit-learn'],
+  //   liveUrl: 'https://github.com/alvarezjp/PortafolioDataScience/blob/main/01-HipermercadoTemporalidadVenta/Notebook/VentasTemporalidad.ipynb',
+  //   githubUrl: 'https://github.com/alvarezjp/PortafolioDataScience/tree/main/01-HipermercadoTemporalidadVenta',
   // },
+  {
+    id: 'project-2',
+    title: 'Análisis de Campañas de Marketing',
+    description: 'Este proyecto fue enfocado en el estudio del funnel de conversión, evaluando el comportamiento de los usuarios en cada etapa y detectando puntos de conversion.',
+    image: project2Image?.imageUrl || '',
+    tags: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'scikit-learn'],
+    liveUrl: 'https://github.com/alvarezjp/PortafolioDataScience/blob/main/02-CampanaMarketing/Notebook/marketingCampaignData.ipynb',
+    githubUrl: 'https://github.com/alvarezjp/PortafolioDataScience/tree/main/02-CampanaMarketing',
+  },
   {
     id: 'project-3',
     title: 'Analisis y modelo de Riesgo Crediticio',
